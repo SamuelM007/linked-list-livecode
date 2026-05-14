@@ -10,15 +10,15 @@ public class Node {
     public int length(){
         int count = 0;
 
-        Node current = head;
+        Node current = this;
 
         while(current != null){
             count++;
             current = current.next;
         }
-        return current;
+        return count;
     }
 
-    
+
 
 }

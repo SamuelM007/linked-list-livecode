@@ -1,7 +1,7 @@
 public class Practice {
     public static void main(String[] args) {
         Node myNode = new Node('w',null);
-        Node othernode = new Node('x', null);
+        Node otherNode = new Node('x', null);
         Node coolNode = new Node('e',null);
         myNode.next = otherNode;
         otherNode.next = coolNode;
